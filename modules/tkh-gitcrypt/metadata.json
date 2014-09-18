@@ -1,0 +1,14 @@
+{
+  "name": "tkh-gitcrypt",
+  "version": "0.1.0",
+  "author": "tkh",
+  "summary": "gitcrypt setup",
+  "license": "Apache 2.0",
+  "source": "git://github.com/st01tkh/puppet-opset/modules/tkh-gitcrypt",
+  "project_page": "https://github.com/st01tkh/puppet-opset/modules/tkh-gitcrypt",
+  "issues_url": "https://github.com/st01tkh/puppet-opset/modules/tkh-gitcrypt/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
