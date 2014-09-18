@@ -2,7 +2,7 @@
 
 #### Table of Contents
 
-1. Creates batch file and makes gitcrypt availably along with Git for Windows
+1. Creates batch file and makes gitcrypt available along with Git for Windows
 
 ## Overview
 
