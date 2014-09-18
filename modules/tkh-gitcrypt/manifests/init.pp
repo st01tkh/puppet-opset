@@ -61,6 +61,12 @@ class tkh-gitcrypt {
     source_permissions => ignore,
     ensure => present,
   }
+  file {"gitcrypt_bash_cmd":
+    path => "C:/Program Files (x86)/Git/cmd/gitcrypt_bash.cmd",
+    source => 'puppet:///modules/tkh-gitcrypt/gitcrypt_bash.cmd',
+    source_permissions => ignore,
+    ensure => present,
+  }
   File['gitcrypt_dir']->Exec['bak_git-encrypt']->
-  Exec['git_clone_gitcrypt']->File['gitcrypt_cmd']
+  Exec['git_clone_gitcrypt']->File['gitcrypt_cmd']->File['gitcrypt_bash_cmd']
 }
