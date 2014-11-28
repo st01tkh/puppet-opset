@@ -1,0 +1,1 @@
+include tkh-gitcrypt::setup
